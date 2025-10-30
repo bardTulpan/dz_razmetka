@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 12px;
+}
+
+.discount {
+    display: inline-block;
+    background-color: #ff4081;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.tag {
+    color: #ff5722;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.author {
+    font-size: 13px;
+    color: #666;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #ffb400;
+}
+
+.reviews {
+    color: #666;
+    font-size: 13px;
+}
+
+
